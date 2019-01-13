@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navBar{
+    margin-top: 34px;
+}
+.navBar ul>li {
+    float: right;
+    font-size:12px;
+    list-style: none;
+    margin-right: 38px;
+}
+.navBar ul>li>a{
+    color: #b7b7b7;
+    border-bottom: 2px solid transparent;
+}
+.navBar ul>li>a:hover{
+    border-bottom-color: #dc6465;
+}
+.logo{
+    float: left;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+.RS{
+    margin-left: 19px;
+    margin-right: 9px;
+    color: #e6686a;
+    float: left;
+    font-size: 22px;
+}
+.card{
+    font-size: 22px;
+    color: #9A9DA2;
+}
+a{
+    text-decoration-line: none;
+}
