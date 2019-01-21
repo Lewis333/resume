@@ -1,4 +1,4 @@
-<!doctype <!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,10 +6,22 @@
     <title>personal resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <script src="http://at.alicdn.com/t/font_1024344_gtcw1z3xbso.js"></script>
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+</style>
 </head>
 <body>
-    <div class="navBar">
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
+    <div class="topNavBar">
+    <div class="navBar clearfix">
     <a class="logo" href="#" alt="logo">
         <span class="RS">RS</span><span class="card">card</span>
     </a>
@@ -23,12 +35,16 @@
         <li><a href="#">其他</a></li>
     </ul>
     </div>
+</div>
+<div class="userCard">
+    <div class="picAndText clearfix">
     <div class="picture">
-        <img src="$" alt="头像">
+        <img src="./avatar.jpg" alt="头像">
     </div>
-    <div class="text"></div>
-    <div class="welcome">hello</div>
-    <div class="profile">
+    <div class="text">
+    <div class="welcome">hello
+        <div class="triangle"></div>
+    </div>
         <h1>刘铁</h1>
         <span>前端开发工程师</span>
         <hr>
@@ -42,17 +58,25 @@
             <dt>手机</dt>
             <dd>13211112222</dd>
         </dl>
-    </div>
-    </div>
-    <footer>
-        <a href="#"><img src="#" alt="图片"></a>
-        <a href="#"><img src="#" alt="图片"></a>
-        <a href="#"><img src="#" alt="图片"></a>
-        <a href="#"><img src="#" alt="图片"></a>
-        <a href="#"><img src="#" alt="图片"></a>
-        <a href="#"><img src="#" alt="图片"></a>
-        <a href="#"><img src="#" alt="图片"></a>
+        </div>
+        </div>
+    <footer class="media">
+        <a href="#">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-github"></use>
+            </svg>
+        <a href="#">
+            <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-twitter1"></use>
+            </svg>
+        </a>
+        <a href="#">
+            <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weibo"></use>
+            </svg>
+        </a>
     </footer>
+</div>
     <a href="#">下载pdf简历</a>
     <p>刘铁， 资深前端学习工程师。<br>
         技能：前端开发，Rails 开发，Node.js 开发
